@@ -1,0 +1,25 @@
+{
+  "name": "react-native-pdf-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~52.0.41",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.7",
+    "react-native-html-to-pdf": "^0.12.0",
+    "react-native-pdf": "^6.7.7",
+    "expo-sharing": "~13.0.1",
+    "expo-print": "~14.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
